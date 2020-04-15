@@ -18,7 +18,6 @@ public class SoldadoTerminalCliente {
 			
 			Socket socket = new Socket("localhost", PUERTO_ULTRASECRETO);
 			
-			// flujo de salida
 			ObjectOutputStream flujoSalida = new ObjectOutputStream(socket.getOutputStream());
 			System.out.println("PREPARANDO EL ENVIO DEL MENSAJE...");
 			
